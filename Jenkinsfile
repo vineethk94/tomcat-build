@@ -20,7 +20,7 @@ pipeline {
         }
 
 
-        stage('Build the coe') {
+        stage('Build the maven code') {
             steps {
             sh 'mvn clean install'
                  }
