@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Clone the repository') {
             steps {
-               git credentialsId: 'Github_username_password', url: 'https://github.com/mmbabu1988/build-deploy.git'
+               git credentialsId: 'Github_username_password', url: 'https://github.com/vineethk94/tomcat-build.git'
             }
         }
 
